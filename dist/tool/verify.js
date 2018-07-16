@@ -1,0 +1,1 @@
+define(["jquery"],function(r){return function(r){return r.account?r.password?r.password_2?void 0===r.password_2||r.password===r.password_2||(alert("两次密码不一致"),!1):(alert("请重复密码"),!1):(alert("请输入密码"),!1):(alert("请输入用户名"),!1)}});

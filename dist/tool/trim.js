@@ -1,0 +1,1 @@
+define(["jquery"],function(n){function i(i){i.bind("input propertychange",function(){var i=n(this);i.val(n.trim(i.val()))})}return i});
